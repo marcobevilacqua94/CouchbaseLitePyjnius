@@ -37,3 +37,6 @@ source ~/.bashrc
 wget https://github.com/marcobevilacqua94/CouchbaseLitePyjnius/raw/main/CBLitePyjnius.py
 
 python3 CBLitePyjnius.py
+
+
+**Per provare la replicazione occorre configurare un sync-gateway o uno user endpoint Capella. Seguire https://docs.couchbase.com/sync-gateway/current/get-started-install.html e https://docs.couchbase.com/sync-gateway/current/get-started-verify-install.html per il sync-gateway o https://docs.couchbase.com/cloud/app-services/deployment/creating-an-app-endpoint.html per lo user endpoint**
