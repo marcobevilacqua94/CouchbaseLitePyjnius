@@ -22,11 +22,11 @@ conda install -c "conda-forge/label/cf202003" pyjnius -y
 
 wget -P /tmp https://packages.couchbase.com/releases/couchbase-lite-java/3.0.5/couchbase-lite-java-ee-3.0.5.zip
 
-sudo apt-get update
+apt-get download unzip
 
-sudo apt-get install unzip
+dpkg -x unzip* unzip
 
-unzip /tmp/couchbase-lite-java-ee-3.0.5.zip -d .
+unzip/usr/bin/unzip /tmp/couchbase-lite-java-ee-3.0.5.zip -d .
 
 echo 'export LD_LIBRARY_PATH=\~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libc++:\~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libicu:$LD_LIBRARY_PATH' >> \~/.bashrc
 
