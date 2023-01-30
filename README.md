@@ -1,6 +1,6 @@
 # CouchbaseLitePyjnius
 
-**Provato con UBUNTU 22, UBUNTU 20 e UBUNTU 18 da immagine nuova**
+**Provato con UBUNTU 22 e UBUNTU 20 da immagine nuova**
 
 **Installazione di conda e della libreria pyjnius. Uso conda perché provvede autonomamente al setup delle principali lib python e del jdk per pyjnius**
 
