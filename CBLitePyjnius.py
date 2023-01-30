@@ -1,5 +1,6 @@
 #pyjnius import and add to classpath Couchbase lite jar libraries 
 import jnius_config
+#control this path
 jnius_config.add_classpath('./couchbase-lite-java-ee-3.0.5-1/lib/*')
 
 from jnius import autoclass
