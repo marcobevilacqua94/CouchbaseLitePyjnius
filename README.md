@@ -19,5 +19,6 @@ echo 'export LD_LIBRARY_PATH=/root/couchbase-lite-java-ee-3.0.5-1/support/linux/
 source ~/.bashrc
 
 Esecuzione dello script di esempio
+
 wget https://github.com/marcobevilacqua94/CouchbaseLitePyjnius/raw/main/CBLitePyjnius.py
 python3 CBLitePyjnius.py
