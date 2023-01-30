@@ -27,7 +27,7 @@ echo 'export LD_LIBRARY_PATH=/root/couchbase-lite-java-ee-3.0.5-1/support/linux/
 
 source ~/.bashrc
 
-**Esecuzione dello script di esempio**
+**Esecuzione dello script di esempio, che contiene operazioni key/value, setup replicazione con endpoint remoto e query SQL**
 
 wget https://github.com/marcobevilacqua94/CouchbaseLitePyjnius/raw/main/CBLitePyjnius.py
 
