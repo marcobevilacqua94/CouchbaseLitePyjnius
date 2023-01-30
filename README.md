@@ -10,7 +10,7 @@ wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 
 bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -b
 
-eval "$(/root/anaconda3/bin/conda shell.bash hook)"
+eval "$(~/anaconda3/bin/conda shell.bash hook)"
 
 conda init
 
