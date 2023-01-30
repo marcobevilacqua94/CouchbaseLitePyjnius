@@ -20,9 +20,9 @@ conda install -c "conda-forge/label/cf202003" pyjnius -y
 
 wget -P /tmp https://packages.couchbase.com/releases/couchbase-lite-java/3.0.5/couchbase-lite-java-ee-3.0.5.zip
 
-apt-get update
+sudo apt-get update
 
-apt-get install unzip
+sudo apt-get install unzip
 
 unzip /tmp/couchbase-lite-java-ee-3.0.5.zip -d .
 
