@@ -4,7 +4,7 @@
 
 **Installazione di conda e della libreria pyjnius. Uso conda perché provvede autonomamente al setup delle principali lib python e del jdk per pyjnius**
 
-**Eseguire i comandi dalla propria home
+**Eseguire i comandi dalla propria home**
 
 cd ~
 
