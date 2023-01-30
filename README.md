@@ -26,7 +26,7 @@ sudo apt-get install unzip
 
 unzip /tmp/couchbase-lite-java-ee-3.0.5.zip -d .
 
-echo 'export LD_LIBRARY_PATH=~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libc++:~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libicu:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=\~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libc++:\~/couchbase-lite-java-ee-3.0.5-1/support/linux/x86_64/libicu:$LD_LIBRARY_PATH' >> \~/.bashrc
 
 source ~/.bashrc
 
